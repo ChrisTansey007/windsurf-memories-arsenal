@@ -616,6 +616,40 @@ Document all endpoints, functions, and classes
 - **Dependencies** - Use FastAPI's dependency injection
 - **Testing** - Write tests for all endpoints
 
+---
+
+## 🔗 Related Arsenal Items
+
+### Recommended Pairings
+
+**⚙️ Development Rule:**
+- [FastAPI Python Rule](https://github.com/ChrisTansey007/ai-rules-arsenal/blob/main/windsurf/by-framework/fastapi-python.md) - Windsurf behavior rules for FastAPI development
+
+**🔄 Workflows:**
+- [Code Review Assistant](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/code-review-assistant.md) - AI-powered code review
+- [Run Tests and Fix](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/run-tests-and-fix.md) - Automated testing workflow
+- [Security Scan](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/code-quality/security-scan.md) - Security vulnerability scanning
+
+**📝 Team Standards:**
+- [Code Review Standards Memory](../team-workflows/code-review-standards-memory.md) - Team code review process
+
+**🔗 Complete Examples:**
+- [API Service Setup](https://github.com/ChrisTansey007/arsenal-integration-hub/tree/main/examples/api-service) - Complete FastAPI setup example
+- [Full-Stack App](https://github.com/ChrisTansey007/arsenal-integration-hub/tree/main/examples/fullstack-nextjs-app) - Next.js + FastAPI example
+
+### Quick Setup
+
+```bash
+# Install all Arsenal repos
+curl -sSL https://raw.githubusercontent.com/ChrisTansey007/arsenal-integration-hub/main/scripts/install-all.sh | bash
+
+# Copy this memory + matching rule + workflows
+cp ~/arsenals/windsurf-memories-arsenal/project-types/fastapi-memory.md .windsurf/memories/
+cp ~/arsenals/ai-rules-arsenal/windsurf/by-framework/fastapi-python.md .windsurf/rules/
+cp ~/arsenals/ai-workflows-arsenal/windsurf/development/*.md .windsurf/workflows/
+cp ~/arsenals/ai-workflows-arsenal/windsurf/code-quality/security-scan.md .windsurf/workflows/
+```
+
 ## Links & Resources
 
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)

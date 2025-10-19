@@ -46,61 +46,61 @@ Memories are automatically loaded when you open your project in Windsurf!
 
 ## 📚 What's Inside
 
-### Project Type Memories (12)
+### ✅ Available Now (3 Memories)
 
-**Web Frameworks:**
-- ✅ Next.js App Router
-- ✅ Next.js Pages Router
-- ✅ React + Vite
-- ✅ Vue + Nuxt
-- ✅ Svelte Kit
+#### Project Type Memories
+- ✅ **[Next.js App Router](./project-types/nextjs-app-router-memory.md)** - Complete Next.js 14+ with App Router, RSC, and TypeScript
+- ✅ **[FastAPI Python](./project-types/fastapi-memory.md)** - Modern async FastAPI backend with PostgreSQL and SQLAlchemy
 
-**Backend Frameworks:**
-- ✅ FastAPI (Python)
-- ✅ Express (Node.js)
-- ✅ NestJS (Node.js)
-- ✅ Django (Python)
-- ✅ Flask (Python)
+#### Team Workflow Memories
+- ✅ **[Code Review Standards](./team-workflows/code-review-standards-memory.md)** - Team code review process, checklist, and conventions
 
-**Mobile:**
-- ✅ React Native
-- ✅ Expo
+### 🚧 Coming Soon (33 More Memories)
 
-### Team Workflow Memories (8)
+We're actively building more memories! Contributions welcome.
 
-- ✅ Code Review Standards
-- ✅ Git Commit Conventions
-- ✅ PR Template & Process
-- ✅ Testing Requirements
-- ✅ Deployment Checklist
-- ✅ Security Guidelines
-- ✅ Performance Standards
-- ✅ Documentation Requirements
+**Project Types (10 more):**
+- 🚧 Next.js Pages Router
+- 🚧 React + Vite
+- 🚧 Vue + Nuxt  
+- 🚧 Svelte Kit
+- 🚧 Express (Node.js)
+- 🚧 NestJS (Node.js)
+- 🚧 Django (Python)
+- 🚧 Flask (Python)
+- 🚧 React Native
+- 🚧 Expo
 
-### Coding Standards Memories (10)
+**Team Workflows (7 more):**
+- 🚧 Git Commit Conventions
+- 🚧 PR Template & Process
+- 🚧 Testing Requirements
+- 🚧 Deployment Checklist
+- 🚧 Security Guidelines
+- 🚧 Performance Standards
+- 🚧 Documentation Requirements
 
-**Languages:**
-- ✅ TypeScript Best Practices
-- ✅ Python Best Practices
-- ✅ JavaScript Modern Patterns
-- ✅ Go Conventions
+**Coding Standards (10):**
+- 🚧 TypeScript Best Practices
+- 🚧 Python Best Practices
+- 🚧 JavaScript Modern Patterns
+- 🚧 Go Conventions
+- 🚧 REST API Design
+- 🚧 GraphQL Schema Design
+- 🚧 Database Schema Patterns
+- 🚧 Error Handling Patterns
+- 🚧 Testing Patterns
+- 🚧 Security Patterns
 
-**Patterns:**
-- ✅ REST API Design
-- ✅ GraphQL Schema Design
-- ✅ Database Schema Patterns
-- ✅ Error Handling Patterns
-- ✅ Testing Patterns
-- ✅ Security Patterns
+**Architecture (6):**
+- 🚧 Microservices Architecture
+- 🚧 Monorepo Structure
+- 🚧 Serverless Architecture
+- 🚧 Event-Driven Architecture
+- 🚧 Clean Architecture
+- 🚧 Domain-Driven Design
 
-### Architecture Memories (6)
-
-- ✅ Microservices Architecture
-- ✅ Monorepo Structure
-- ✅ Serverless Architecture
-- ✅ Event-Driven Architecture
-- ✅ Clean Architecture
-- ✅ Domain-Driven Design
+**Want to contribute?** See [CONTRIBUTING.md](CONTRIBUTING.md) or [open an issue](https://github.com/ChrisTansey007/windsurf-memories-arsenal/issues) to request a memory!
 
 ---
 
@@ -354,22 +354,34 @@ Memories are Markdown files you can edit:
 - API routes in /app/api/
 ```
 
-### Combining with Arsenal
+### Combining with Arsenal Ecosystem
 
-**Complete setup:**
+**Complete Next.js setup example:**
 ```bash
-# 1. Memories (what Cascade remembers)
-cp memories-arsenal/project-types/nextjs-memory.md .windsurf/memories/
+# 1. Install all Arsenal repos
+curl -sSL https://raw.githubusercontent.com/ChrisTansey007/arsenal-integration-hub/main/scripts/install-all.sh | bash
 
-# 2. Rules (how Cascade behaves)
-cp ai-rules-arsenal/windsurf/by-framework/nextjs-app-router.md .windsurf/rules/
+# 2. Copy Next.js memory
+cp ~/arsenals/windsurf-memories-arsenal/project-types/nextjs-app-router-memory.md .windsurf/memories/
 
-# 3. Workflows (what Cascade does)
-cp ai-workflows-arsenal/windsurf/development/*.md .windsurf/workflows/
+# 3. Copy Next.js rule
+cp ~/arsenals/ai-rules-arsenal/windsurf/by-framework/nextjs-app-router.md .windsurf/rules/
 
-# 4. Prompts (what you ask)
-# Use from prompt-arsenal as needed
+# 4. Copy helpful workflows
+cp ~/arsenals/ai-workflows-arsenal/windsurf/development/code-review-assistant.md .windsurf/workflows/
+cp ~/arsenals/ai-workflows-arsenal/windsurf/development/run-tests-and-fix.md .windsurf/workflows/
+cp ~/arsenals/ai-workflows-arsenal/windsurf/git-workflows/commit-and-pr.md .windsurf/workflows/
 ```
+
+**Or use our setup script:**
+```bash
+~/arsenals/arsenal-integration-hub/scripts/setup-project.sh my-project fullstack
+```
+
+**See complete examples:**
+- [Solo Developer Setup](https://github.com/ChrisTansey007/arsenal-integration-hub/tree/main/examples/solo-developer)
+- [Team Setup](https://github.com/ChrisTansey007/arsenal-integration-hub/tree/main/examples/team-setup)
+- [Full-Stack Next.js App](https://github.com/ChrisTansey007/arsenal-integration-hub/tree/main/examples/fullstack-nextjs-app)
 
 **Result:** Complete AI-powered development environment!
 
@@ -450,14 +462,26 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ### The Complete Arsenal Ecosystem
 
-```
-💭 windsurf-memories-arsenal  ⭐ YOU ARE HERE - What Cascade remembers
-📝 prompt-arsenal             → What to build
-⚙️ ai-rules-arsenal           → How Cascade behaves
-🔄 ai-workflows-arsenal       → Multi-step processes
-🤖 ai-scripts-arsenal         → Automation scripts
-🔗 arsenal-integration-hub    → How to use together
-```
+**💭 windsurf-memories-arsenal** ⭐ YOU ARE HERE  
+What Cascade remembers - Project context, standards, conventions
+
+**⚙️ [ai-rules-arsenal](https://github.com/ChrisTansey007/ai-rules-arsenal)**  
+How Cascade behaves - Development rules for frameworks and patterns  
+→ **Pair with:** [Next.js Rule](https://github.com/ChrisTansey007/ai-rules-arsenal/blob/main/windsurf/by-framework/nextjs-app-router.md) + [Next.js Memory](./project-types/nextjs-app-router-memory.md)
+
+**🔄 [ai-workflows-arsenal](https://github.com/ChrisTansey007/ai-workflows-arsenal)**  
+Multi-step automation - Testing, code review, PR creation workflows  
+→ **Pair with:** [Code Review Workflow](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/code-review-assistant.md) + [Code Review Memory](./team-workflows/code-review-standards-memory.md)
+
+**📝 [prompt-arsenal](https://github.com/ChrisTansey007/prompt-arsenal)**  
+Reusable prompts - Custom agents and system configurations
+
+**🤖 [ai-scripts-arsenal](https://github.com/ChrisTansey007/ai-scripts-arsenal)**  
+Automation scripts - Repository setup and management
+
+**🔗 [arsenal-integration-hub](https://github.com/ChrisTansey007/arsenal-integration-hub)**  
+Complete examples - See how to use all Arsenal tools together  
+→ **Start here:** [Installation Guide](https://github.com/ChrisTansey007/arsenal-integration-hub#-quick-start)
 
 **Use them together for maximum power!**
 
@@ -465,11 +489,15 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## 📖 Documentation
 
-- **[Getting Started](docs/GETTING-STARTED.md)** - Quick start guide
-- **[Memory Guide](docs/MEMORY-GUIDE.md)** - Deep dive into Memories
-- **[Best Practices](docs/BEST-PRACTICES.md)** - Tips and patterns
-- **[Examples](docs/EXAMPLES.md)** - Real-world usage
-- **[FAQ](docs/FAQ.md)** - Common questions
+- **[Arsenal Integration Hub](https://github.com/ChrisTansey007/arsenal-integration-hub)** - Complete setup examples
+- **[Template](./templates/memory-template.md)** - Create your own memories
+- **[Contributing Guide](CONTRIBUTING.md)** - Add new memories
+
+**Coming Soon:**
+- 🚧 Getting Started Guide
+- 🚧 Memory Guide Deep Dive
+- 🚧 Best Practices
+- 🚧 FAQ
 
 ---
 
@@ -522,10 +550,11 @@ cp team-workflows/code-review-standards-memory.md .windsurf/memories/
 
 ## 📊 Stats
 
-- **36 Production-Ready Memories**
-- **4 Categories** (Project, Team, Standards, Architecture)
+- **3 Production-Ready Memories** (33 more coming soon!)
+- **4 Categories** (Project Types, Team Workflows, Coding Standards, Architecture)
 - **100% Open Source** (MIT License)
 - **Battle-Tested** in real projects
+- **Community Contributions Welcome**
 
 ---
 

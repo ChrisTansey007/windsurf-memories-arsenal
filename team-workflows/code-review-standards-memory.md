@@ -433,3 +433,34 @@ This is exactly the pattern we should follow elsewhere.
 7. Learn from every review
 
 **Remember:** Code reviews make us all better developers! 🚀
+
+---
+
+## 🔗 Related Arsenal Items
+
+### Recommended Pairings
+
+**🔄 Workflows:**
+- [Code Review Assistant](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/code-review-assistant.md) - AI-powered automated code review
+- [Address PR Comments](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/address-pr-comments.md) - Systematically address review feedback
+- [Commit and PR](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/git-workflows/commit-and-pr.md) - Create well-formatted PRs
+
+**📝 Project Memories:**
+- [Next.js App Router Memory](../project-types/nextjs-app-router-memory.md) - Frontend standards to review against
+- [FastAPI Memory](../project-types/fastapi-memory.md) - Backend standards to review against
+
+**🔗 Complete Examples:**
+- [Team Setup Example](https://github.com/ChrisTansey007/arsenal-integration-hub/tree/main/examples/team-setup) - Complete team configuration with code review setup
+- [Solo Developer Setup](https://github.com/ChrisTansey007/arsenal-integration-hub/tree/main/examples/solo-developer) - Solo dev code review workflow
+
+### Quick Setup
+
+```bash
+# Install all Arsenal repos
+curl -sSL https://raw.githubusercontent.com/ChrisTansey007/arsenal-integration-hub/main/scripts/install-all.sh | bash
+
+# Copy this memory + related workflows
+cp ~/arsenals/windsurf-memories-arsenal/team-workflows/code-review-standards-memory.md .windsurf/memories/
+cp ~/arsenals/ai-workflows-arsenal/windsurf/development/code-review-assistant.md .windsurf/workflows/
+cp ~/arsenals/ai-workflows-arsenal/windsurf/development/address-pr-comments.md .windsurf/workflows/
+```

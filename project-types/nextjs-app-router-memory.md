@@ -481,10 +481,42 @@ Organize routes with parentheses: (marketing), (app), (admin)
 
 - **Server Components are async** - can await data directly
 - **Client Components cannot be async** - use useEffect/SWR
-- **Server Actions must have** `'use server'` directive
-- **Metadata API** replaces next/head
-- **Route Handlers** replace API routes pattern
-- **No getServerSideProps/getStaticProps** in App Router
+- **This is production code** - write for scale, maintainability, and team collaboration
+- **We move fast** - but with clean code and good practices
+- **Test thoroughly** - especially data fetching and error states
+
+---
+
+## 🔗 Related Arsenal Items
+
+### Recommended Pairings
+
+**⚙️ Development Rule:**
+- [Next.js App Router Rule](https://github.com/ChrisTansey007/ai-rules-arsenal/blob/main/windsurf/by-framework/nextjs-app-router.md) - Windsurf behavior rules for Next.js development
+
+**🔄 Workflows:**
+- [Code Review Assistant](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/code-review-assistant.md) - AI-powered code review
+- [Run Tests and Fix](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/run-tests-and-fix.md) - Automated testing workflow
+- [Commit and PR](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/git-workflows/commit-and-pr.md) - Git workflow automation
+
+**📝 Team Standards:**
+- [Code Review Standards Memory](../team-workflows/code-review-standards-memory.md) - Team code review process
+
+**🔗 Complete Examples:**
+- [Full-Stack Next.js App](https://github.com/ChrisTansey007/arsenal-integration-hub/tree/main/examples/fullstack-nextjs-app) - Complete setup example
+- [Solo Developer Setup](https://github.com/ChrisTansey007/arsenal-integration-hub/tree/main/examples/solo-developer) - Solo dev configuration
+
+### Quick Setup
+
+```bash
+# Install all Arsenal repos
+curl -sSL https://raw.githubusercontent.com/ChrisTansey007/arsenal-integration-hub/main/scripts/install-all.sh | bash
+
+# Copy this memory + matching rule + workflows
+cp ~/arsenals/windsurf-memories-arsenal/project-types/nextjs-app-router-memory.md .windsurf/memories/
+cp ~/arsenals/ai-rules-arsenal/windsurf/by-framework/nextjs-app-router.md .windsurf/rules/
+cp ~/arsenals/ai-workflows-arsenal/windsurf/development/*.md .windsurf/workflows/
+```
 
 ## Links & Resources
 
