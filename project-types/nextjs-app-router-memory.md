@@ -1,3 +1,14 @@
+---
+id: mem.nextjs-app-router
+type: memory
+title: Next.js 14+ App Router Project Memory
+tags: [nextjs, react, frontend, app-router, typescript]
+summary: Complete context for Next.js 14+ projects using App Router with React Server Components, TypeScript, and modern patterns.
+audience: team
+domain: frontend
+version: 1
+---
+
 # Next.js 14+ App Router Project Memory
 
 ## Project Overview

@@ -1,3 +1,14 @@
+---
+id: mem.fastapi
+type: memory
+title: FastAPI Python Backend Memory
+tags: [fastapi, python, backend, api, async]
+summary: Complete context for FastAPI backend services with async patterns, SQLAlchemy, PostgreSQL, and modern Python best practices.
+audience: team
+domain: backend
+version: 1
+---
+
 # FastAPI Python Backend Memory
 
 ## Project Overview

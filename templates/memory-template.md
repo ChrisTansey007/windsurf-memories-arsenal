@@ -1,3 +1,14 @@
+---
+id: mem.template
+type: memory
+title: Memory Template
+tags: [template, documentation, howto]
+summary: Template for creating new Arsenal memories with standardized structure and front-matter.
+audience: contributors
+domain: meta
+version: 1
+---
+
 # [Memory Title] Memory
 
 ## Overview

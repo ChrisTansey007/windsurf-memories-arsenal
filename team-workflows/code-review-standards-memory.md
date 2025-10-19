@@ -1,3 +1,14 @@
+---
+id: mem.code-review-standards
+type: memory
+title: Code Review Standards Memory
+tags: [code-review, team, workflow, standards, collaboration]
+summary: Team code review process, standards, and expectations for all code changes before merging to main.
+audience: team
+domain: process
+version: 1
+---
+
 # Code Review Standards Memory
 
 ## Overview
