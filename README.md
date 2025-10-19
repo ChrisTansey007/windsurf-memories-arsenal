@@ -46,7 +46,7 @@ Memories are automatically loaded when you open your project in Windsurf!
 
 ## 📚 What's Inside
 
-### ✅ Available Now (3 Memories)
+### ✅ Available Now (4 Memories)
 
 #### Project Type Memories
 - ✅ **[Next.js App Router](./project-types/nextjs-app-router-memory.md)** - Complete Next.js 14+ with App Router, RSC, and TypeScript
@@ -54,6 +54,9 @@ Memories are automatically loaded when you open your project in Windsurf!
 
 #### Team Workflow Memories
 - ✅ **[Code Review Standards](./team-workflows/code-review-standards-memory.md)** - Team code review process, checklist, and conventions
+
+#### Development Tools
+- ✅ **[Email Passkey Authentication](./development-tools/email-passkey-auth.md)** - Bridging modern passkey auth with legacy IMAP/SMTP protocols
 
 ### 🚧 Coming Soon (33 More Memories)
 
