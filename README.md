@@ -46,7 +46,7 @@ Memories are automatically loaded when you open your project in Windsurf!
 
 ## 📚 What's Inside
 
-### ✅ Available Now (4 Memories)
+### ✅ Available Now (5 Memories)
 
 #### Project Type Memories
 - ✅ **[Next.js App Router](./project-types/nextjs-app-router-memory.md)** - Complete Next.js 14+ with App Router, RSC, and TypeScript
@@ -57,6 +57,9 @@ Memories are automatically loaded when you open your project in Windsurf!
 
 #### Development Tools
 - ✅ **[Email Passkey Authentication](./development-tools/email-passkey-auth.md)** - Bridging modern passkey auth with legacy IMAP/SMTP protocols
+
+#### Prompt Engineering
+- ✅ **[Prompt Patterns Library](./prompt-engineering/prompt-patterns-library.md)** - Catalog of proven prompt patterns from analyzed conversations
 
 ### 🚧 Coming Soon (33 More Memories)
 
