@@ -64,6 +64,7 @@ version: 1
 - **Use When:** Need credibility and external validation
 - **Why It Works:** Grounds AI output in verifiable sources
 - **Source Thread:** agents.md structure (2025-10-20)
+- **📝 Standalone Prompt:** [Add Citations to Output](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/add-citations-to-output.md)
 
 #### Pattern: Format Specification
 ```
@@ -96,6 +97,7 @@ version: 1
 - **Use When:** Need quality assurance before finalization
 - **Why It Works:** Triggers AI self-review mechanism
 - **Source Thread:** agents.md structure (2025-10-20)
+- **📝 Standalone Prompt:** [Self-Score Output Quality](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/quality-assurance/self-score-output.md)
 
 #### Pattern: Quality Gate Checklist
 ```
@@ -119,6 +121,7 @@ version: 1
 - **Use When:** Want to reuse successful approaches
 - **Why It Works:** Transforms specific into general
 - **Source Thread:** agents.md structure (2025-10-20)
+- **📝 Standalone Prompt:** [Extract Reusable Template](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/extract-reusable-template.md)
 
 #### Pattern: Upgrade Request
 ```
@@ -142,6 +145,7 @@ version: 1
 - **Use When:** Need factual grounding
 - **Why It Works:** Makes claims verifiable and credible
 - **Source Thread:** agents.md structure (2025-10-20)
+- **📝 Standalone Prompt:** [Add Citations to Output](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/add-citations-to-output.md)
 
 #### Pattern: Assumption Declaration
 ```
