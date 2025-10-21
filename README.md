@@ -468,8 +468,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ### The Complete Arsenal Ecosystem
 
+#### Content Repositories
+
 **💭 windsurf-memories-arsenal** ⭐ YOU ARE HERE  
 What Cascade remembers - Project context, standards, conventions
+
+**📝 [prompt-arsenal](https://github.com/ChrisTansey007/prompt-arsenal)**  
+What to ask/build - 26 production-ready prompts and agent templates
 
 **⚙️ [ai-rules-arsenal](https://github.com/ChrisTansey007/ai-rules-arsenal)**  
 How Cascade behaves - Development rules for frameworks and patterns  
@@ -479,15 +484,40 @@ How Cascade behaves - Development rules for frameworks and patterns
 Multi-step automation - Testing, code review, PR creation workflows  
 → **Pair with:** [Code Review Workflow](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/code-review-assistant.md) + [Code Review Memory](./team-workflows/code-review-standards-memory.md)
 
-**📝 [prompt-arsenal](https://github.com/ChrisTansey007/prompt-arsenal)**  
-Reusable prompts - Custom agents and system configurations
-
 **🤖 [ai-scripts-arsenal](https://github.com/ChrisTansey007/ai-scripts-arsenal)**  
 Automation scripts - Repository setup and management
+
+#### Integration & Tooling
 
 **🔗 [arsenal-integration-hub](https://github.com/ChrisTansey007/arsenal-integration-hub)**  
 Complete examples - See how to use all Arsenal tools together  
 → **Start here:** [Installation Guide](https://github.com/ChrisTansey007/arsenal-integration-hub#-quick-start)
+
+**🌐 [arsenal-context-server](https://github.com/ChrisTansey007/arsenal-context-server)** 🆕  
+MCP context server - Serve memories via Model Context Protocol
+
+**⚡ [arsenal-cli](https://github.com/ChrisTansey007/arsenal-cli)** 🆕  
+Command-line tool - Search, install, and manage Arsenal content
+
+**🔌 [arsenal-mcp-server](https://github.com/ChrisTansey007/arsenal-mcp-server)** 🆕  
+Full MCP server - Access all Arsenal repos programmatically
+
+### 🚀 Access Memories via MCP
+
+Serve memories through Model Context Protocol:
+
+```bash
+# Install Arsenal MCP Server
+npm install -g @arsenal/mcp-server
+
+# Or use Context Server specifically
+npm install -g @arsenal/context-server
+
+# Or manage with CLI
+npm install -g arsenal-cli
+arsenal memory search "nextjs"
+arsenal memory use nextjs-app-router
+```
 
 **Use them together for maximum power!**
 
